@@ -108,6 +108,7 @@ Checking file size of ergodox_ez_lowply.hex                                     
 ```
 
 - Note that you'll need `avr-gcc`
+  - Will `./util/qmk_install.sh` install it?
 - If it fails with `No rule to make target 'drivers/avr/i2c_master.c'`, try `qmk clean` and compile again.
 
 And apply while the keyboard is connected:
